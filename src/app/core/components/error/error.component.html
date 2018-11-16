@@ -1,0 +1,12 @@
+<div *ngIf="!notFound">
+  <button [routerLink]="tryAgainUrl">{{ 'Go back' | translate }}</button> 
+
+  <h2>{{ errorMessage }}</h2>
+</div>
+
+
+<div *ngIf="notFound">
+  <button [routerLink]="tryAgainUrl">{{ 'Go Home' | translate }}</button>
+
+  <h2>{{ notFound }}</h2>
+</div>

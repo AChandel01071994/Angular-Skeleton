@@ -1,0 +1,27 @@
+<p>
+  home works!
+</p>
+<h1>{{ 'A' | translate }}</h1>
+
+<h1>{{'1/1/2018' | date }}</h1>
+
+<button (click)="onClick()">show toaster</button>
+
+ 
+
+<div *ngFor="let u of user | keyvalue">
+  {{u.key}} - 
+  {{u.value}}
+</div>
+ng updy
+
+<ol>
+  <li>
+    <button (click)="openDialog()">Pick one</button>
+  </li>
+   
+</ol>
+
+<button mat-button (click)="openSnackBar()" aria-label="Show an example snack-bar">
+  Pizza party
+</button>

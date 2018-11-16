@@ -1,0 +1,12 @@
+.direction_ltr:host {
+    p {
+        color: red;
+    }
+
+}
+
+.direction_rtl:host {
+    p {
+        color: rgb(0, 255, 42);
+    }
+} 
